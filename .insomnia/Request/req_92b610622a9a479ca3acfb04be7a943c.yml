@@ -1,0 +1,21 @@
+_id: req_92b610622a9a479ca3acfb04be7a943c
+type: Request
+parentId: fld_86e140c858c146f898a314154f30eb5e
+modified: 1700015248785
+created: 1698683509313
+url: "{{ _.proxy }}/api"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1698683519598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

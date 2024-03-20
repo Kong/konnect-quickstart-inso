@@ -1,0 +1,23 @@
+_id: req_fa407afc00e44e0b81257006b04bbd86
+type: Request
+parentId: fld_bcec80fd43a14f10859d7457ea949b6f
+modified: 1696974967276
+created: 1696974861332
+url: "{{ _.proxy }}/rate-limiting-adv"
+name: Proxy Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696963807208.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

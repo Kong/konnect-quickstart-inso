@@ -1,0 +1,39 @@
+_id: req_519e7cc14d494c0ba8fda2954eb862b9
+type: Request
+parentId: fld_26da05b55cb642c2a75cd4c327d6aeb8
+modified: 1700088557008
+created: 1700088058024
+url: "{{ _.base_url }}/core-entities/upstreams"
+name: Create Upstream
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "upstream-example",
+    	"slots": 10000,
+    	"algorithm": "round-robin",
+    	"hash_on": "none",
+    	"hash_fallback": "none",
+    	"healthchecks": {
+    		"threshold": 0
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - id: pair_fe7f295050074234b5c29e57c375ccaa
+    name: Authorization
+    value: Bearer {{ _.konnect_access_token }}
+    description: ""
+authentication: {}
+metaSortKey: -1700088034408
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

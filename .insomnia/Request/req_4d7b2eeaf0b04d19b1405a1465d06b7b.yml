@@ -1,0 +1,23 @@
+_id: req_4d7b2eeaf0b04d19b1405a1465d06b7b
+type: Request
+parentId: fld_ac9528dd388d4dbeb1d3ab5ffca600df
+modified: 1696976810823
+created: 1696976129828
+url: "{{ _.proxy }}/acl"
+name: Proxy Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696964038646.0234
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

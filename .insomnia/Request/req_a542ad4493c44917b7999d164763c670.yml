@@ -1,0 +1,23 @@
+_id: req_a542ad4493c44917b7999d164763c670
+type: Request
+parentId: fld_04f609e582ae4b33b887b44476a905de
+modified: 1696977789085
+created: 1696977553724
+url: "{{ _.proxy }}/prometheus"
+name: Proxy Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696963807208.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_2b4d21bd1e9e430f98043a6fbb31bb96
+type: Request
+parentId: fld_cce2405d5f4c44de847ed7cd3b6353fe
+modified: 1709690578891
+created: 1709674864691
+url: "{{ _.proxy }}/oidc"
+name: Proxy Bearer Token
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ae8db9ed00e94d7c822d276abb8b4ffe',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: true
+metaSortKey: -1696963807158.6875
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

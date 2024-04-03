@@ -1,0 +1,30 @@
+_id: req_f36d3e555a8245dba804a43ef70eb2f1
+type: Request
+parentId: fld_cce2405d5f4c44de847ed7cd3b6353fe
+modified: 1709689942098
+created: 1709674790534
+url: "{{ _.proxy }}/oidc"
+name: Proxy Client Credential Grant
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: 0oafk4ihr9jWjDsM25d7
+  password: QVMa5fea5p3c-JA77IKKwAyeDg3vnInQyFM_QslaWh1FxEcCOL7G95YmQRh-Y4t3
+metaSortKey: -1696963807208.6875
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

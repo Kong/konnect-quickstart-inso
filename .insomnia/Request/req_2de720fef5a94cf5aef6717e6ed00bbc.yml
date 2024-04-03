@@ -1,0 +1,50 @@
+_id: req_2de720fef5a94cf5aef6717e6ed00bbc
+type: Request
+parentId: fld_3b8e37bad40b44a98d2f872a1601bba7
+modified: 1696978861791
+created: 1696978822114
+url: "{{ _.base_url }}/core-entities/routes"
+name: Create a Route
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"service":{
+    		"id":"{% response 'body', 'req_476dd874dbe14fb199ec692807a06d34', 'b64::JC5pZA==::46b', 'never', 60 %}"
+    	},
+    	"name": "http-log-route",
+    	"regex_priority": 0,
+    	"path_handling": "v0",
+    	"preserve_host": false,
+    	"https_redirect_status_code": 426,
+    	"protocols": [
+    		"http",
+    		"https"
+    	],
+    	"strip_path": true,
+    	"tags": ["http-log-example"],
+    	"paths": [
+    		"/http-log"
+    	]
+    }
+preRequestScript: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication:
+  type: bearer
+  token: "{{ _.konnect_access_token }}"
+metaSortKey: -1696964071708.5
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

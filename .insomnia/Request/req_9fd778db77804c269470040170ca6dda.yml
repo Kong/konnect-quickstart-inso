@@ -1,0 +1,25 @@
+_id: req_9fd778db77804c269470040170ca6dda
+type: Request
+parentId: fld_d22a3171679348eca4bd16ee271844e9
+modified: 1696975283461
+created: 1696975219680
+url: "{{ _.proxy }}/canary"
+name: Proxy Request
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696964057538.8672
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_d01db65a48774194ba1d2d8279d2fa71
+type: Request
+parentId: fld_f5666fd4aa084dd89457e9945ed31353
+modified: 1706313562321
+created: 1696973142540
+url: "{{ _.proxy }}/key-auth"
+name: Proxy Request
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication:
+  type: apikey
+  disabled: false
+  key: apikey
+  value: john-key
+  addTo: header
+metaSortKey: -1696963807208.6875
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_e680050254064cb0918031e7af785bcf
+type: Request
+parentId: fld_f75d1b161bd24ae3ba44e97edad903b3
+modified: 1706737892089
+created: 1706316509603
+url: "{{ _.proxy }}/exit-transformer"
+name: Exit
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.4.1
+authentication: {}
+metaSortKey: -1706316509603
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

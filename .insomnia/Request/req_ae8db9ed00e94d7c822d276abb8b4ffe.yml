@@ -1,0 +1,39 @@
+_id: req_ae8db9ed00e94d7c822d276abb8b4ffe
+type: Request
+parentId: fld_cce2405d5f4c44de847ed7cd3b6353fe
+modified: 1709690522563
+created: 1709680030663
+url: https://dev-40220353.okta.com/oauth2/ausfk4izmk1aWaUSa5d7/v1/token
+name: Get Token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: grant_type
+      value: client_credentials
+      id: pair_2943d63eb1a64a6ea3eb1e31b8a28e89
+    - name: scope
+      value: custom_scope
+      id: pair_863d5b1f96254fcab3eaf89b58bd1d99
+    - name: client_id
+      value: 0oafk4ihr9jWjDsM25d7
+      id: pair_3e69baaddc424c788304c98235925c3a
+    - name: client_secret
+      value: QVMa5fea5p3c-JA77IKKwAyeDg3vnInQyFM_QslaWh1FxEcCOL7G95YmQRh-Y4t3
+      id: pair_d800225290604cdea640d13e95bcd50b
+preRequestScript: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1696963807183.6875
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

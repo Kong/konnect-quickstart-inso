@@ -1,0 +1,25 @@
+_id: req_46de3a8d60824dd88783e187b374945b
+type: Request
+parentId: fld_6fd2fcb673c6464580f0d26766dd4c73
+modified: 1696978551931
+created: 1696978327343
+url: "{{ _.proxy }}/request-transformer"
+name: Proxy Request
+description: ""
+method: GET
+body: {}
+preRequestScript: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696963807208.6875
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

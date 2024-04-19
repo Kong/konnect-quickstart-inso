@@ -15,7 +15,6 @@ body:
     	"tags": ["key-auth-example"],
     	"custom_id": "john-id"
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

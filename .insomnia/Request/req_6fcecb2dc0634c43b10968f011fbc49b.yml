@@ -28,7 +28,6 @@ body:
     		"reopen": true
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

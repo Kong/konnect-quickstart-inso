@@ -44,7 +44,6 @@ body:
     		"timeout": 10000
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

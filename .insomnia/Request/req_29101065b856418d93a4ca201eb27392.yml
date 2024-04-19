@@ -16,7 +16,6 @@ body:
     	"tags": [],
     	"custom_id": "first-consumer-id"
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

@@ -28,7 +28,6 @@ body:
     		"/example-path"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

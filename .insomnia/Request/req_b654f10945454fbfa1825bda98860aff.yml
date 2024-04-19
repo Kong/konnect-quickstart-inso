@@ -29,7 +29,6 @@ body:
     		"/file-log"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

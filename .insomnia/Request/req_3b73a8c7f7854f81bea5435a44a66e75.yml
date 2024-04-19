@@ -29,7 +29,6 @@ body:
     		"/ip-restriction"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

@@ -16,7 +16,6 @@ body:
     	"key": "engineer-key",
     	"tags": ["acl-example"]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

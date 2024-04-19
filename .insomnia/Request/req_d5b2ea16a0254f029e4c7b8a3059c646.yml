@@ -18,7 +18,6 @@ body:
     		"acl-example"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

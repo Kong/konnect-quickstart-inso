@@ -15,7 +15,6 @@ body:
     	"tags": ["acl-example"],
     	"custom_id": "partner-id"
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

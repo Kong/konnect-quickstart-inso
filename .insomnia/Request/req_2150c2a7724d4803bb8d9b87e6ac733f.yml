@@ -8,7 +8,6 @@ name: First Service and Route
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers:
   - name: User-Agent

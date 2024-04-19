@@ -29,7 +29,6 @@ body:
     		"/canary"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

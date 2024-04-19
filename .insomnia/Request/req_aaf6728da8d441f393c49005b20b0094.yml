@@ -36,7 +36,6 @@ body:
     		"run_on_preflight": true
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

@@ -20,7 +20,6 @@ body:
     		"id": "{% response 'body', 'req_519e7cc14d494c0ba8fda2954eb862b9', 'b64::JC5pZA==::46b', 'never', 60 %}"
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

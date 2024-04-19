@@ -9,7 +9,6 @@ name: List Routes
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers:
   - id: pair_fe7f295050074234b5c29e57c375ccaa

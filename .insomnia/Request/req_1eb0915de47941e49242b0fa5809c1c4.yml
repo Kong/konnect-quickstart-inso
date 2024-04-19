@@ -29,7 +29,6 @@ body:
     		"hide_credentials": false
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

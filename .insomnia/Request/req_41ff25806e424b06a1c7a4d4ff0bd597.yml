@@ -29,7 +29,6 @@ body:
     		"/acl"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

@@ -9,7 +9,6 @@ name: Delete a Consumer
 description: ""
 method: DELETE
 body: {}
-preRequestScript: ""
 parameters: []
 headers:
   - id: pair_fe7f295050074234b5c29e57c375ccaa

@@ -39,7 +39,6 @@ body:
     		"sync_rate": -1
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

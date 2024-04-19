@@ -23,7 +23,6 @@ body:
     	"tags": ["rate-limiting-example"],
     	"tls_verify": null
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

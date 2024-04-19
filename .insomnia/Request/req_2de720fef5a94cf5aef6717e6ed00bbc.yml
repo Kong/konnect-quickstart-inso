@@ -29,7 +29,6 @@ body:
     		"/http-log"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

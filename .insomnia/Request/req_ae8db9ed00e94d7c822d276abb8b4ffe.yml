@@ -22,7 +22,6 @@ body:
     - name: client_secret
       value: QVMa5fea5p3c-JA77IKKwAyeDg3vnInQyFM_QslaWh1FxEcCOL7G95YmQRh-Y4t3
       id: pair_d800225290604cdea640d13e95bcd50b
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

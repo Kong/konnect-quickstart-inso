@@ -23,7 +23,6 @@ body:
     	"tags": [],
     	"tls_verify": null
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

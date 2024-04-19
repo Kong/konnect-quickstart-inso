@@ -23,7 +23,6 @@ body:
     	"tags": ["basic-auth-example"],
     	"tls_verify": null
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

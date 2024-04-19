@@ -8,7 +8,6 @@ name: Proxy Bearer Token
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers:
   - name: User-Agent

@@ -29,7 +29,6 @@ body:
     		"/rate-limiting"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

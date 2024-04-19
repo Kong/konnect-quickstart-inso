@@ -29,7 +29,6 @@ body:
     		"/prometheus"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

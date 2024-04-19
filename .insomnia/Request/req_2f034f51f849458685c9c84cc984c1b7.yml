@@ -30,7 +30,6 @@ body:
 
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

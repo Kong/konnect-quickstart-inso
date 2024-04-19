@@ -8,7 +8,6 @@ name: Proxy Request
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers:
   - name: User-Agent

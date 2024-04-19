@@ -29,7 +29,6 @@ body:
     		"/basic-auth"
     	]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

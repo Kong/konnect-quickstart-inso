@@ -15,7 +15,6 @@ body:
     	"tags": ["basic-auth-example"],
     	"custom_id": "paul-id"
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

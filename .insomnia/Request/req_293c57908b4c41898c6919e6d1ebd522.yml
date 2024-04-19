@@ -30,7 +30,6 @@ body:
     		"hide_groups_header": false
     	}
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type

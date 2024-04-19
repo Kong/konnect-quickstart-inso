@@ -17,7 +17,6 @@ body:
     	"password": "paul-pass",
     	"tags": ["basic-auth-example"]
     }
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type
